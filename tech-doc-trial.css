@@ -1,0 +1,32 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+
+body {
+  background: #f5f6f7;
+  color: #1b1b32;
+  font-family: Helvetica;
+  margin: 0;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-center;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  background: #1ecbe1;
+  color: orange;
+  padding-top: 2px;
+  scroll-padding-right: 2px;
+  margin: 0 -2px;
+  border-inline: 2px;
+}
+
+header {
+  font-weight: bold;
+  font-family: inherit;
+}
